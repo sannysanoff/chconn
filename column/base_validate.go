@@ -34,7 +34,7 @@ var chColumnByteSize = map[string]int{
 }
 
 var byteChColumnType = map[int]string{
-	1:  "Int8|UInt8|Enum8",
+	1:  "Int8|UInt8|Enum8|Bool",
 	2:  "Int16|UInt16|Enum16|Date",
 	4:  "Int32|UInt32|Float32|Decimal32|Date32|DateTime|IPv4",
 	8:  "Int64|UInt64|Float64|Decimal64|DateTime64",
